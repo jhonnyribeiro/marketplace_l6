@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -159,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="16024000" />
+      <workItem from="1579619383072" duration="16820000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -301,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579637630952</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="44. Atualizando Loja">
+      <created>1579638435909</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579638435909</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,13 +334,14 @@
     <MESSAGE value="41. CSRF &amp; Salvando Loja" />
     <MESSAGE value="42. Organizando Rotas das Lojas" />
     <MESSAGE value="43. Usando Templates Blade" />
-    <option name="LAST_COMMIT_MESSAGE" value="43. Usando Templates Blade" />
+    <MESSAGE value="44. Atualizando Loja" />
+    <option name="LAST_COMMIT_MESSAGE" value="44. Atualizando Loja" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579637629587">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579638434949">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579637629587" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579638434949" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
