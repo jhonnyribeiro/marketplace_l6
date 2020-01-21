@@ -124,3 +124,6 @@ Route::get('/model', function () {
 //
 //    return $product->categories;
 });
+
+
+Route::get('/admin/stores', 'Admin\\StoreController@index');
