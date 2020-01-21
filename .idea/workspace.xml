@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_21_173727_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_21_174000_create_category_product_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Store.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="7606000" />
+      <workItem from="1579619383072" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579628057912</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="29. Mapeando 1:N Loja-Produtos">
+      <created>1579628197519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579628197519</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,13 +234,14 @@
     <MESSAGE value="23. Queries no Eloquent" />
     <MESSAGE value="24. Mass Assignment &amp; Mass Update" />
     <MESSAGE value="28. Mapeando 1:1 Usuário-Loja" />
-    <option name="LAST_COMMIT_MESSAGE" value="28. Mapeando 1:1 Usuário-Loja" />
+    <MESSAGE value="29. Mapeando 1:N Loja-Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="29. Mapeando 1:N Loja-Produtos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579628056972">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579628196456">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579628056972" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579628196456" />
     <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579628060230">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
