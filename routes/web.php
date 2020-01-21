@@ -70,8 +70,7 @@ Route::get('/model', function () {
 //	$categoria->products;
 
 
-
-  //  return \App\User::paginate(10);
+    //  return \App\User::paginate(10);
 
     //Criar uma loja para um usuário
 //	$user = \App\User::find(10);
@@ -126,6 +125,12 @@ Route::get('/model', function () {
 });
 
 
-Route::get('/admin/stores', 'Admin\\StoreController@index');
-Route::get('/admin/stores/create', 'Admin\\StoreController@create');
-Route::post('/admin/stores/store', 'Admin\\StoreController@store');
+Route::prefix('admin')->namespace('Admin')->group(function () {
+    Route::prefix('stores')->group->(function () {
+
+        Route::get('/', 'StoreController@index');
+        Route::get('/create', 'StoreController@create');
+        Route::post('/store', 'StoreController@store');
+
+    });
+});
