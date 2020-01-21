@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="21488000" />
+      <workItem from="1579619383072" duration="22439000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -334,14 +336,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579645873836</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="48. Intro &amp; Gerando Controller">
+      <created>1579646886493</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579646886493</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16. Revertendo Coisas&#10;adicionando migration de products" />
     <MESSAGE value="17 - Adicionando Seeds" />
     <MESSAGE value="18 -  Adicionando factory seed usuarios" />
     <MESSAGE value="21. O Eloquent" />
@@ -366,13 +374,14 @@
     <MESSAGE value="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas" />
     <MESSAGE value="46. Melhorias em Rotas Usando Apelidos&#10;CRUD finalizado" />
     <MESSAGE value="47. Mensagens Flash &amp; Concluindo" />
-    <option name="LAST_COMMIT_MESSAGE" value="47. Mensagens Flash &amp; Concluindo" />
+    <MESSAGE value="48. Intro &amp; Gerando Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="48. Intro &amp; Gerando Controller" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579645872862">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579646885428">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579645872862" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579646885428" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
