@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="18806000" />
+      <workItem from="1579619383072" duration="19368000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579639269286</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas">
+      <created>1579643845843</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579643845843</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +350,8 @@
     <MESSAGE value="43. Usando Templates Blade" />
     <MESSAGE value="44. Atualizando Loja" />
     <MESSAGE value="45. Removendo Loja" />
-    <option name="LAST_COMMIT_MESSAGE" value="45. Removendo Loja" />
+    <MESSAGE value="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas" />
+    <option name="LAST_COMMIT_MESSAGE" value="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579643844678">
