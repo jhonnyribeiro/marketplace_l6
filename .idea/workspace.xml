@@ -152,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="5303000" />
+      <workItem from="1579619383072" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579625420464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="23. Queries no Eloquent">
+      <created>1579625915394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579625915394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,13 +208,14 @@
     <MESSAGE value="18 -  Adicionando factory seed usuarios" />
     <MESSAGE value="21. O Eloquent" />
     <MESSAGE value="22. Active Record" />
-    <option name="LAST_COMMIT_MESSAGE" value="22. Active Record" />
+    <MESSAGE value="23. Queries no Eloquent" />
+    <option name="LAST_COMMIT_MESSAGE" value="23. Queries no Eloquent" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579625419574">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579625914498">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579625419574" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579625914498" />
     <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579625422463">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
