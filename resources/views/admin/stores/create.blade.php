@@ -1,6 +1,7 @@
 <h1>Criar Loja</h1>
 
 <form action="/admin/stores/store" method="post">
+    <input type="hidden" name="_token" value="{{csrf_token()}}">
     <div>
         <label for="name">Loja</label>
         <input type="text" name="name">
@@ -12,8 +13,8 @@
     </div>
 
     <div>
-        <label for="phone>Telefone</label>
-    <input type=" text" name="phone">
+        <label for="phone">Telefone</label>
+        <input type="text" name="phone">
     </div>
 
     <div>
