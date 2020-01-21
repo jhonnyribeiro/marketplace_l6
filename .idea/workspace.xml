@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/StoreTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/StoreFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/StoreFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
-      <workItem from="1579619383072" duration="9853000" />
+      <workItem from="1579619383072" duration="11776000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -241,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579629740692</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="33. Seeds Lojas &amp; Produtos">
+      <created>1579630477098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579630477098</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,13 +264,14 @@
     <MESSAGE value="30. Migração Categorias e N:N" />
     <MESSAGE value="31. Mapeando N:N Produtos-Categorias" />
     <MESSAGE value="32. Model Factories para Testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="32. Model Factories para Testes" />
+    <MESSAGE value="33. Seeds Lojas &amp; Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="33. Seeds Lojas &amp; Produtos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579629739532">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579630476328">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579629739532" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579630476328" />
     <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579628060230">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
