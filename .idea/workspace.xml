@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
-      <workItem from="1579697421499" duration="8988000" />
+      <workItem from="1579697421499" duration="9348000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -430,14 +429,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579707562434</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado">
+      <created>1579708077794</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1579708077794</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="35. Inserindo Relações" />
     <MESSAGE value="38. Iniciando Rotas Para Lojas" />
     <MESSAGE value="39. Exibindo e Paginando Lojas" />
     <MESSAGE value="40. Iniciando Criação de Lojas" />
@@ -462,21 +467,22 @@
     <MESSAGE value="62. Melhorias Painel" />
     <MESSAGE value="63. Diretivas Auth Blade" />
     <MESSAGE value="64. Redirecionamento Pós Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="64. Redirecionamento Pós Login" />
+    <MESSAGE value="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado" />
+    <option name="LAST_COMMIT_MESSAGE" value="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579707561385">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579708077046">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579707561385" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579708077046" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579704793779">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579708078934">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579704793779" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579708078934" />
     <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579697464129">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
