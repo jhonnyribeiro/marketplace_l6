@@ -160,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
-      <workItem from="1579697421499" duration="1209000" />
+      <workItem from="1579697421499" duration="2120000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -351,14 +351,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579647659312</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="51. Views (Index, Create &amp; Edit)">
+      <created>1579699152083</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579699152084</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="18 -  Adicionando factory seed usuarios" />
     <MESSAGE value="21. O Eloquent" />
     <MESSAGE value="22. Active Record" />
     <MESSAGE value="23. Queries no Eloquent" />
@@ -383,13 +389,14 @@
     <MESSAGE value="47. Mensagens Flash &amp; Concluindo" />
     <MESSAGE value="48. Intro &amp; Gerando Controller" />
     <MESSAGE value="50. Iniciando CRUD de Produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="50. Iniciando CRUD de Produtos" />
+    <MESSAGE value="51. Views (Index, Create &amp; Edit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="51. Views (Index, Create &amp; Edit)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579647658026">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579699150118">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579647658026" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579699150118" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
