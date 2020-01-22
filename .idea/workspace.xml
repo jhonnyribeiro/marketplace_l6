@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
       <workItem from="1579697421499" duration="9557000" />
-      <workItem from="1579711567568" duration="1149000" />
+      <workItem from="1579711567568" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -458,14 +458,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579712632877</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="71. Recuperando Dados Digitados Pelo Usuário">
+      <created>1579712757513</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1579712757513</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="41. CSRF &amp; Salvando Loja" />
     <MESSAGE value="42. Organizando Rotas das Lojas" />
     <MESSAGE value="43. Usando Templates Blade" />
     <MESSAGE value="44. Atualizando Loja" />
@@ -490,13 +496,14 @@
     <MESSAGE value="66. Conclusões Módulo&#10;Adicionanndo nome usuário logado" />
     <MESSAGE value="69. Usando Form Requests" />
     <MESSAGE value="70. Exibindo Validações Views" />
-    <option name="LAST_COMMIT_MESSAGE" value="70. Exibindo Validações Views" />
+    <MESSAGE value="71. Recuperando Dados Digitados Pelo Usuário" />
+    <option name="LAST_COMMIT_MESSAGE" value="71. Recuperando Dados Digitados Pelo Usuário" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579712631898">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579712756334">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579712631898" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579712756334" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
