@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
-      <workItem from="1579697421499" duration="5974000" />
+      <workItem from="1579697421499" duration="7229000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -401,14 +402,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579703935690</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="61. Controlando Acesso ao Admin&#10;Ao tentar acessar os recusos de admino mesmo passa a pedir senha depois de adicionado o midleware nas rotas">
+      <created>1579704792247</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1579704792247</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="30. Migração Categorias e N:N" />
     <MESSAGE value="31. Mapeando N:N Produtos-Categorias" />
     <MESSAGE value="32. Model Factories para Testes" />
     <MESSAGE value="33. Seeds Lojas &amp; Produtos" />
@@ -433,21 +440,22 @@
     <MESSAGE value="54. Aplicando Recursos em Lojas" />
     <MESSAGE value="58. Criando Views de Autenticação" />
     <MESSAGE value="58. Criando Views de Autenticação&#10;Faltou os arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="58. Criando Views de Autenticação&#10;Faltou os arquivos" />
+    <MESSAGE value="61. Controlando Acesso ao Admin&#10;Ao tentar acessar os recusos de admino mesmo passa a pedir senha depois de adicionado o midleware nas rotas" />
+    <option name="LAST_COMMIT_MESSAGE" value="61. Controlando Acesso ao Admin&#10;Ao tentar acessar os recusos de admino mesmo passa a pedir senha depois de adicionado o midleware nas rotas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579703934193">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579704791045">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579703934193" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579704791045" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579700679873">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579704793779">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579700679873" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579704793779" />
     <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579697464129">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
