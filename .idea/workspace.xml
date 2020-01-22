@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
-      <workItem from="1579697421499" duration="2725000" />
+      <workItem from="1579697421499" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -372,14 +374,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579700217255</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="53. Removendo Produtos">
+      <created>1579700678835</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579700678835</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23. Queries no Eloquent" />
     <MESSAGE value="24. Mass Assignment &amp; Mass Update" />
     <MESSAGE value="28. Mapeando 1:1 Usuário-Loja" />
     <MESSAGE value="29. Mapeando 1:N Loja-Produtos" />
@@ -404,21 +412,22 @@
     <MESSAGE value="51. Views (Index, Create &amp; Edit)" />
     <MESSAGE value="52. Criando e Atualizando Produtos" />
     <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
+    <MESSAGE value="53. Removendo Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="53. Removendo Produtos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579700216420">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579700677808">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579700216420" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579700677808" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579700219247">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579700679873">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579700219247" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579700679873" />
     <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579697464129">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
