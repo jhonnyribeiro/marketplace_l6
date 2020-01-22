@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +164,7 @@
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
       <workItem from="1579697421499" duration="9557000" />
-      <workItem from="1579711567568" duration="1851000" />
+      <workItem from="1579711567568" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -480,14 +481,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579713121658</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Validações produtos - Ajustes Agora testado">
+      <created>1579713462450</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1579713462451</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="44. Atualizando Loja" />
     <MESSAGE value="45. Removendo Loja" />
     <MESSAGE value="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas" />
     <MESSAGE value="46. Melhorias em Rotas Usando Apelidos&#10;CRUD finalizado" />
@@ -512,13 +519,14 @@
     <MESSAGE value="71. Recuperando Dados Digitados Pelo Usuário" />
     <MESSAGE value="72. Traduzindo Mensagens de Validação" />
     <MESSAGE value="Validações produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validações produtos" />
+    <MESSAGE value="Validações produtos - Ajustes Agora testado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validações produtos - Ajustes Agora testado" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579713120762">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579713461643">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579713120762" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579713461643" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

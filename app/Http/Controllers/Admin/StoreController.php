@@ -3,20 +3,24 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Http\Requests\StoreRequest;
 
 class StoreController extends Controller
 {
     public function index()
     {
-        $stores = \App\Store::paginate(10);
-
-        return view('admin.stores.index', compact('stores'));
+//        $stores = \App\Store::paginate(10);
+        $store = auth()->user()->store;
+        return view('admin.stores.index', compact('store'));
     }
 
     public function create()
     {
+        if (auth()->user()->store->count()) {
+            flash('O usuário logado já possui uma loja')->warning();
+            return redirect()->route('admin.stores.index');
+        }
+
         $users = \App\User::all(['id', 'name']);
         return view('admin.stores.create', compact('users'));
     }
@@ -25,7 +29,7 @@ class StoreController extends Controller
     {
         $data = $request->all();
         $user = auth()->user();
-       // $user = \App\User::find($data['user']);
+        // $user = \App\User::find($data['user']);
         $store = $user->store()->create($data);
 
         flash('Loja criada com sucesso!')->success();
