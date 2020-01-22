@@ -125,7 +125,8 @@ Route::get('/model', function () {
 });
 
 
-Route::prefix('admin')->name('admin.')->namespace('Admin')->group(function () {
+Route::group(['middleware' => ['auth']], function () {
+    Route::prefix('admin')->name('admin.')->namespace('Admin')->group(function () {
 
 //    Route::prefix('stores')->name('stores.')->group(function () {
 //
@@ -138,10 +139,13 @@ Route::prefix('admin')->name('admin.')->namespace('Admin')->group(function () {
 //    });
 
 
-    Route::resource('stores', 'StoreController');
-    Route::resource('products', 'ProductController');
+        Route::resource('stores', 'StoreController');
+        Route::resource('products', 'ProductController');
+
+    });
 
 });
+
 
 Auth::routes();
 

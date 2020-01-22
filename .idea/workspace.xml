@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
-      <workItem from="1579697421499" duration="5035000" />
+      <workItem from="1579697421499" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -389,15 +387,27 @@
       <option name="project" value="LOCAL" />
       <updated>1579702689258</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="58. Criando Views de Autenticação">
+      <created>1579703902849</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579703902849</updated>
+    </task>
+    <task id="LOCAL-00034" summary="58. Criando Views de Autenticação&#10;Faltou os arquivos">
+      <created>1579703935690</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1579703935690</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="28. Mapeando 1:1 Usuário-Loja" />
-    <MESSAGE value="29. Mapeando 1:N Loja-Produtos" />
     <MESSAGE value="30. Migração Categorias e N:N" />
     <MESSAGE value="31. Mapeando N:N Produtos-Categorias" />
     <MESSAGE value="32. Model Factories para Testes" />
@@ -421,7 +431,9 @@
     <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
     <MESSAGE value="53. Removendo Produtos" />
     <MESSAGE value="54. Aplicando Recursos em Lojas" />
-    <option name="LAST_COMMIT_MESSAGE" value="54. Aplicando Recursos em Lojas" />
+    <MESSAGE value="58. Criando Views de Autenticação" />
+    <MESSAGE value="58. Criando Views de Autenticação&#10;Faltou os arquivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="58. Criando Views de Autenticação&#10;Faltou os arquivos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579703934193">
