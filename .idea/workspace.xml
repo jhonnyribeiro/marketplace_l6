@@ -162,7 +162,7 @@
       <updated>1579619381301</updated>
       <workItem from="1579619383072" duration="23004000" />
       <workItem from="1579697421499" duration="9557000" />
-      <workItem from="1579711567568" duration="982000" />
+      <workItem from="1579711567568" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
       <created>1579622983811</created>
@@ -451,14 +451,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579712196621</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="70. Exibindo Validações Views">
+      <created>1579712632877</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1579712632877</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="40. Iniciando Criação de Lojas" />
     <MESSAGE value="41. CSRF &amp; Salvando Loja" />
     <MESSAGE value="42. Organizando Rotas das Lojas" />
     <MESSAGE value="43. Usando Templates Blade" />
@@ -483,13 +489,14 @@
     <MESSAGE value="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado" />
     <MESSAGE value="66. Conclusões Módulo&#10;Adicionanndo nome usuário logado" />
     <MESSAGE value="69. Usando Form Requests" />
-    <option name="LAST_COMMIT_MESSAGE" value="69. Usando Form Requests" />
+    <MESSAGE value="70. Exibindo Validações Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="70. Exibindo Validações Views" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579712195256">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579712631898">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579712195256" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579712631898" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
