@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ProductPhoto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductPhotoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_23_125435_create_products_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_135217_create_product_photos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_23_125605_alter_table_stores_add_column_logo.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_135510_alter_table_stores_add_column_logo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,13 @@
         <item name="marketplace_l6@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="marketplace_l6: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="marketplace_l6@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="marketplace_l6: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="product_photos: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -207,14 +208,8 @@
       <workItem from="1579717217478" duration="495000" />
       <workItem from="1579767748242" duration="11000" />
       <workItem from="1579767864733" duration="8600000" />
-      <workItem from="1579784029673" duration="6001000" />
-    </task>
-    <task id="LOCAL-00005" summary="22. Active Record">
-      <created>1579625420464</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1579625420464</updated>
+      <workItem from="1579784029673" duration="6786000" />
+      <workItem from="1579791307362" duration="1180000" />
     </task>
     <task id="LOCAL-00006" summary="23. Queries no Eloquent">
       <created>1579625915394</created>
@@ -552,14 +547,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579784530559</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="87. Upload na Edição do Produto">
+      <created>1579790180047</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1579790180047</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="52. Criando e Atualizando Produtos" />
     <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
     <MESSAGE value="53. Removendo Produtos" />
     <MESSAGE value="54. Aplicando Recursos em Lojas" />
@@ -584,7 +585,8 @@
     <MESSAGE value="81. Atualizando Produtos com Categorias" />
     <MESSAGE value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
     <MESSAGE value="83. Migrações para Upload de Fotos" />
-    <option name="LAST_COMMIT_MESSAGE" value="83. Migrações para Upload de Fotos" />
+    <MESSAGE value="87. Upload na Edição do Produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="87. Upload na Edição do Produto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -603,10 +605,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579784529607">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579790178820">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784529607" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579790178820" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -631,14 +633,14 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="33" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784046051" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579775947379">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579790182730">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775947379" />
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579784030804">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579790182730" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579791307861">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784030804" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579791307861" />
     <state x="220" y="241" key="run.anything.popup" timestamp="1579713262343">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
