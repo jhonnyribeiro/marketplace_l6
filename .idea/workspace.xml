@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,14 +211,7 @@
       <workItem from="1579767748242" duration="11000" />
       <workItem from="1579767864733" duration="8600000" />
       <workItem from="1579784029673" duration="6786000" />
-      <workItem from="1579791307362" duration="3254000" />
-    </task>
-    <task id="LOCAL-00009" summary="29. Mapeando 1:N Loja-Produtos">
-      <created>1579628197519</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1579628197519</updated>
+      <workItem from="1579791307362" duration="3932000" />
     </task>
     <task id="LOCAL-00010" summary="30. Migração Categorias e N:N">
       <created>1579628738352</created>
@@ -552,14 +549,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579794477165</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="92. Correções em Upload de Produtos">
+      <created>1579794761283</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1579794761283</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="58. Criando Views de Autenticação" />
     <MESSAGE value="58. Criando Views de Autenticação&#10;Faltou os arquivos" />
     <MESSAGE value="61. Controlando Acesso ao Admin&#10;Ao tentar acessar os recusos de admino mesmo passa a pedir senha depois de adicionado o midleware nas rotas" />
     <MESSAGE value="62. Melhorias Painel" />
@@ -584,7 +587,8 @@
     <MESSAGE value="88. Removendo Fotos do Produto" />
     <MESSAGE value="90. Testando Upload em Lojas" />
     <MESSAGE value="91. Editando Logo da Loja" />
-    <option name="LAST_COMMIT_MESSAGE" value="91. Editando Logo da Loja" />
+    <MESSAGE value="92. Correções em Upload de Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="92. Correções em Upload de Produtos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -607,10 +611,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579794475962">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579794760315">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579794475962" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579794760315" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
