@@ -70,10 +70,10 @@
         </div>
 
         <div class="form-group">
+
             <label for="">Fotos do Produto</label>
             <input type="file" name="photos[]" class="form-control" multiple>
         </div>
-
 
         <div class="form-group">
             <label>Slug</label>
