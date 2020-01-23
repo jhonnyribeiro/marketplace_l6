@@ -36,7 +36,7 @@
 
                             <td>R$ {{number_format($subtotal, 2, ',', '.')}}</td>
                             <td>
-                                <a href="#" class="btn btn-sm btn-danger">REMOVER</a>
+                                <a href="{{route('cart.remove', ['slug' => $c['slug']])}}" class="btn btn-sm btn-danger">REMOVER</a>
                             </td>
                         </tr>
 
@@ -51,7 +51,7 @@
                 <hr>
                 <div class="col-md-12">
                     <a href="#" class="btn btn-lg btn-success float-right">Concluir Compra</a>
-                    <a href="#" class="btn btn-lg btn-danger float-left">Cancelar Compra</a>
+                    <a href="{{route('cart.cancel')}}" class="btn btn-lg btn-danger float-left">Cancelar Compra</a>
                 </div>
             @else
                 <div class="alert alert-warning">Carrinho vazio...</div>
