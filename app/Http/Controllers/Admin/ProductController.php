@@ -99,6 +99,7 @@ class ProductController extends Controller
 
         $product = $this->prouct->find($product);
         $product->update($data);
+        $product->categories()->sync($data['categories']);
 
         flash('Produto atualizado com sucesso!')->success();
         return redirect()->route('admin.products.index');

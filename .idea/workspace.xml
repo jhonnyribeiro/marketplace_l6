@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +165,7 @@
       <workItem from="1579711567568" duration="4204000" />
       <workItem from="1579717217478" duration="495000" />
       <workItem from="1579767748242" duration="11000" />
-      <workItem from="1579767864733" duration="7266000" />
-    </task>
-    <task id="LOCAL-00001" summary="16. Revertendo Coisas&#10;adicionando migration de products">
-      <created>1579622983811</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1579622983811</updated>
+      <workItem from="1579767864733" duration="7703000" />
     </task>
     <task id="LOCAL-00002" summary="17 - Adicionando Seeds">
       <created>1579623857781</created>
@@ -517,14 +503,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579768763911</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar">
+      <created>1579775314362</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1579775314363</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="47. Mensagens Flash &amp; Concluindo" />
     <MESSAGE value="48. Intro &amp; Gerando Controller" />
     <MESSAGE value="50. Iniciando CRUD de Produtos" />
     <MESSAGE value="51. Views (Index, Create &amp; Edit)" />
@@ -549,17 +541,18 @@
     <MESSAGE value="74. Iniciando Controle de Lojas por Usuários" />
     <MESSAGE value="75. Criando Middleware para Controle" />
     <MESSAGE value="76. Produtos para Loja do Usuário Autenticado" />
-    <option name="LAST_COMMIT_MESSAGE" value="76. Produtos para Loja do Usuário Autenticado" />
+    <MESSAGE value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
+    <option name="LAST_COMMIT_MESSAGE" value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="140" y="102" key="#Inspections/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579767963262" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579768761483">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579775313542">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579768761483" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775313542" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -580,10 +573,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579768765743">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579775316565">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579768765743" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775316565" />
     <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579767881438">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
