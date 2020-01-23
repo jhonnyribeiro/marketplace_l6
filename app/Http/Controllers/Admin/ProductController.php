@@ -11,11 +11,11 @@ class ProductController extends Controller
 {
 
     use UploadTrait;
-    private $prouct;
+    private $product;
 
     public function __construct(Product $product)
     {
-        $this->prouct = $product;
+        $this->product = $product;
     }
 
     /**
@@ -93,7 +93,7 @@ class ProductController extends Controller
      */
     public function edit($product)
     {
-        $product = $this->prouct->findOrFail($product);
+        $product = $this->product->findOrFail($product);
         $categories = \App\Category::all(['id', 'name']);
 
         return view('admin.products.edit', compact('product', 'categories'));
@@ -111,7 +111,7 @@ class ProductController extends Controller
         $data = $request->all();
         $categories = $request->get('categories', null);
 
-        $product = $this->prouct->find($product);
+        $product = $this->product->find($product);
         $product->update($data);
         if (!is_null($categories)) {
             $product->categories()->sync($categories);
@@ -138,7 +138,7 @@ class ProductController extends Controller
     {
 
 
-        $product = $this->prouct->find($product);
+        $product = $this->product->find($product);
         $product->delete();
 
         flash('Produto removido com sucesso!')->success();
