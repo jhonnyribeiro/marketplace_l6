@@ -13,7 +13,7 @@ class AlterTableStoresAddColumnLogo extends Migration
      */
     public function up()
     {
-        Schema::table('stores',  function (Blueprint $table){
+        Schema::table('stores', function (Blueprint $table) {
             $table->string('logo')->nullable();
         });
     }
@@ -25,7 +25,7 @@ class AlterTableStoresAddColumnLogo extends Migration
      */
     public function down()
     {
-        Schema::table('stores',  function (Blueprint $table){
+        Schema::table('stores', function (Blueprint $table) {
             $table->dropColumn('logo');
         });
     }

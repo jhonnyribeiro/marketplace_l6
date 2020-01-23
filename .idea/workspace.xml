@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_125435_create_products_photos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_125605_alter_table_stores_add_column_logo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ProductPhoto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_23_125435_create_products_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_135217_create_product_photos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_23_125605_alter_table_stores_add_column_logo.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_135510_alter_table_stores_add_column_logo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +24,40 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="marketplace_l6@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="marketplace_l6@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="marketplace_l6@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="marketplace_l6: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
@@ -122,6 +159,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -169,14 +207,7 @@
       <workItem from="1579717217478" duration="495000" />
       <workItem from="1579767748242" duration="11000" />
       <workItem from="1579767864733" duration="8600000" />
-      <workItem from="1579784029673" duration="434000" />
-    </task>
-    <task id="LOCAL-00004" summary="21. O Eloquent">
-      <created>1579624754917</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579624754917</updated>
+      <workItem from="1579784029673" duration="6001000" />
     </task>
     <task id="LOCAL-00005" summary="22. Active Record">
       <created>1579625420464</created>
@@ -514,14 +545,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579775945485</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="83. Migrações para Upload de Fotos">
+      <created>1579784530547</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1579784530559</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="51. Views (Index, Create &amp; Edit)" />
     <MESSAGE value="52. Criando e Atualizando Produtos" />
     <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
     <MESSAGE value="53. Removendo Produtos" />
@@ -546,17 +583,30 @@
     <MESSAGE value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
     <MESSAGE value="81. Atualizando Produtos com Categorias" />
     <MESSAGE value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
-    <option name="LAST_COMMIT_MESSAGE" value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
+    <MESSAGE value="83. Migrações para Upload de Fotos" />
+    <option name="LAST_COMMIT_MESSAGE" value="83. Migrações para Upload de Fotos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="140" y="102" key="#Inspections/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579767963262" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579775944590">
+    <state x="240" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579784628958">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775944590" />
+    <state x="240" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784628958" />
+    <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579786250051">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579786250051" />
+    <state x="266" y="116" key="#phpunit.xml" timestamp="1579784743928">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579784529607">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784529607" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -593,5 +643,9 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="220" y="241" key="run.anything.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579713262343" />
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1579787857246">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579787857246" />
   </component>
 </project>

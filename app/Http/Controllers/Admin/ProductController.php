@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProductRequest;
 use App\Product;
+use http\Env\Request;
 
 class ProductController extends Controller
 {
@@ -55,11 +56,30 @@ class ProductController extends Controller
 //        $store = \App\Store::find($data['store']);
         $store = auth()->user()->store;
         $product = $store->products()->create($data);
+
         $product->categories()->sync($data['categories']);
+
+        if ($request->hasFile('photos')) {
+            $images = $this->imageUpload($request, 'image');
+
+            // insert dessas imagens na base (apenas as referencias
+            $product->photos()->createMany($images);
+        }
 
         flash('Produto criado com sucesso!')->success();
         return redirect()->route('admin.products.index');
 
+    }
+
+    private function imageUpload(ProductRequest $request, $imageColumn)
+    {
+        $images = $request->file('photos');
+        $uploadedImages = [];
+        foreach ($images as $image) {
+            $uploadedImages[] = [$imageColumn => $image->store('products', 'public')];
+        }
+
+        return $uploadedImages;
     }
 
     /**
@@ -101,6 +121,13 @@ class ProductController extends Controller
         $product = $this->prouct->find($product);
         $product->update($data);
         $product->categories()->sync($data['categories']);
+
+        if ($request->hasFile('photos')) {
+            $images = $this->imageUpload($request, 'image');
+
+            // insert dessas imagens na base (apenas as referencias
+            $product->photos()->createMany($images);
+        }
 
         flash('Produto atualizado com sucesso!')->success();
         return redirect()->route('admin.products.index');
