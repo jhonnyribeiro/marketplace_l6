@@ -71,16 +71,7 @@ class ProductController extends Controller
 
     }
 
-    private function imageUpload(ProductRequest $request, $imageColumn)
-    {
-        $images = $request->file('photos');
-        $uploadedImages = [];
-        foreach ($images as $image) {
-            $uploadedImages[] = [$imageColumn => $image->store('products', 'public')];
-        }
 
-        return $uploadedImages;
-    }
 
     /**
      * Display the specified resource.

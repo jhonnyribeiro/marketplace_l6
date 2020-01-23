@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductPhotoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Traits/UploadTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,14 +212,7 @@
       <workItem from="1579767748242" duration="11000" />
       <workItem from="1579767864733" duration="8600000" />
       <workItem from="1579784029673" duration="6786000" />
-      <workItem from="1579791307362" duration="1180000" />
-    </task>
-    <task id="LOCAL-00006" summary="23. Queries no Eloquent">
-      <created>1579625915394</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1579625915394</updated>
+      <workItem from="1579791307362" duration="2558000" />
     </task>
     <task id="LOCAL-00007" summary="24. Mass Assignment &amp; Mass Update">
       <created>1579626654643</created>
@@ -554,14 +550,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579790180047</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="88. Removendo Fotos do Produto">
+      <created>1579792683417</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1579792683417</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
     <MESSAGE value="53. Removendo Produtos" />
     <MESSAGE value="54. Aplicando Recursos em Lojas" />
     <MESSAGE value="58. Criando Views de Autenticação" />
@@ -586,7 +588,8 @@
     <MESSAGE value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
     <MESSAGE value="83. Migrações para Upload de Fotos" />
     <MESSAGE value="87. Upload na Edição do Produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="87. Upload na Edição do Produto" />
+    <MESSAGE value="88. Removendo Fotos do Produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="88. Removendo Fotos do Produto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -601,14 +604,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579786250051" />
+    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579792943192">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579792943192" />
     <state x="266" y="116" key="#phpunit.xml" timestamp="1579784743928">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579790178820">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579792682385">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579790178820" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579792682385" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -625,6 +632,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1230" height="271" key="GridCell.Tab.0.right/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579711737280" />
+    <state x="393" y="308" key="NewPhpClassDialog" timestamp="1579792923693">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="393" y="308" key="NewPhpClassDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579792923693" />
     <state x="451" y="435" key="NewPhpFileDialog" timestamp="1579636842971">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -633,10 +644,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="33" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784046051" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579790182730">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579792702697">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579790182730" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579792702697" />
     <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579791307861">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
