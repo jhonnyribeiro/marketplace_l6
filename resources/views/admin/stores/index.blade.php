@@ -6,9 +6,11 @@
     @endif
     <table class="table table-striped">
         <thead>
+        <th>Lojas Cadastradas</th>
         <tr>
             <td>#</td>
             <td>Loja</td>
+            <td>Total de Produtos</td>
             <td>Ações</td>
         </tr>
         </thead>
@@ -16,6 +18,7 @@
         <tr>
             <td>{{$store->id}}</td>
             <td>{{$store->name}}</td>
+            <td>{{$store->products->count()}}</td>
             <td>
                 <div class="btn-group">
                     <a href="{{route('admin.stores.edit', ['store' => $store->id])}}"

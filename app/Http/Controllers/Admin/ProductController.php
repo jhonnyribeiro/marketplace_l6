@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Product;
-use Illuminate\Http\Request;
 use App\Http\Requests\ProductRequest;
+use App\Product;
+
 class ProductController extends Controller
 {
 
@@ -50,7 +50,8 @@ class ProductController extends Controller
     {
         $data = $request->all();
 
-        $store = \App\Store::find($data['store']);
+//        $store = \App\Store::find($data['store']);
+        $store = auth()->user()->store;
         $store->products()->create($data);
 
         flash('Produto criado com sucesso!')->success();
