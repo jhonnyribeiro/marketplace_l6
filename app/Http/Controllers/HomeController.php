@@ -7,21 +7,24 @@ use App\Product;
 class HomeController extends Controller
 {
 
-    private $prouct;
+    private $product;
 
     public function __construct(Product $product)
     {
-        $this->prouct = $product;
+        $this->product = $product;
     }
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
+
     public function index()
     {
         $products = $this->prouct->limit(8)->orderBy('id', 'DESC')->get();
 
         return view('welcome', compact('products'));
+    }
+
+    public function single($slug)
+    {
+        $product = $this->product->whereSlug($slug)->first();
+
+        return view('single', compact('product'));
     }
 }
