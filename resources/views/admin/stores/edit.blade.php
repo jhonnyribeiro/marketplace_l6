@@ -39,10 +39,6 @@
             @enderror
         </div>
 
-        <div class="form-group">
-            <label for="slug">Slug</label>
-            <input type="text" name="slug" class="form-control" value="{{$store->slug}}">
-        </div>
 
 
         <div class="form-group">
