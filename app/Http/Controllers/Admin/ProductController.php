@@ -5,11 +5,13 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProductRequest;
 use App\Product;
+use App\Traits\UploadTrait;
 use http\Env\Request;
 
 class ProductController extends Controller
 {
 
+    use UploadTrait;
     private $prouct;
 
     public function __construct(Product $product)
@@ -60,7 +62,7 @@ class ProductController extends Controller
         $product->categories()->sync($data['categories']);
 
         if ($request->hasFile('photos')) {
-            $images = $this->imageUpload($request, 'image');
+            $images = $this->imageUpload($request->file('photos'), 'image');
 
             // insert dessas imagens na base (apenas as referencias
             $product->photos()->createMany($images);
@@ -114,7 +116,7 @@ class ProductController extends Controller
         $product->categories()->sync($data['categories']);
 
         if ($request->hasFile('photos')) {
-            $images = $this->imageUpload($request, 'image');
+            $images = $this->imageUpload($request->file('photos'), 'image');
 
             // insert dessas imagens na base (apenas as referencias
             $product->photos()->createMany($images);
