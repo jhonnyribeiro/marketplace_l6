@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +155,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Wi54HjoIngemrefbZ1wd51Un5f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -166,7 +170,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,14 +214,10 @@
       <workItem from="1579767864733" duration="8600000" />
       <workItem from="1579784029673" duration="6786000" />
       <workItem from="1579791307362" duration="4209000" />
-      <workItem from="1579798464941" duration="2523000" />
-    </task>
-    <task id="LOCAL-00014" summary="35. Inserindo Relações">
-      <created>1579634158634</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1579634158634</updated>
+      <workItem from="1579798464941" duration="3022000" />
+      <workItem from="1579809321005" duration="234000" />
+      <workItem from="1579810279382" duration="766000" />
+      <workItem from="1579811065547" duration="811000" />
     </task>
     <task id="LOCAL-00015" summary="38. Iniciando Rotas Para Lojas">
       <created>1579634629333</created>
@@ -555,14 +555,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579801559570</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Ajustes redirecionamento inicial">
+      <created>1579801625310</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1579801625310</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="64. Redirecionamento Pós Login" />
     <MESSAGE value="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado" />
     <MESSAGE value="66. Conclusões Módulo&#10;Adicionanndo nome usuário logado" />
     <MESSAGE value="69. Usando Form Requests" />
@@ -587,7 +593,8 @@
     <MESSAGE value="97. Melhorias em Validação de Imagens" />
     <MESSAGE value="98. Melhorias em Categorias de Produtos" />
     <MESSAGE value="99. Dinamizando Geração de Slug&#10;&#10;&#10;// composer require spatie/laravel-sluggable&#10;//https://github.com/spatie/laravel-sluggable" />
-    <option name="LAST_COMMIT_MESSAGE" value="99. Dinamizando Geração de Slug&#10;&#10;&#10;// composer require spatie/laravel-sluggable&#10;//https://github.com/spatie/laravel-sluggable" />
+    <MESSAGE value="Ajustes redirecionamento inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes redirecionamento inicial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -602,18 +609,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579786250051" />
-    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579792943192">
+    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579810696173">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579792943192" />
+    <state x="307" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579810696173" />
     <state x="266" y="116" key="#phpunit.xml" timestamp="1579784743928">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579801558481">
+    <state x="182" y="31" key="CommitChangelistDialog2" timestamp="1579801624354">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579801558481" />
+    <state x="182" y="31" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579801624354" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -638,18 +645,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="33" y="83" key="SettingsEditor" timestamp="1579784046051">
+    <state x="33" y="83" key="SettingsEditor" timestamp="1579811045779">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="33" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784046051" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579799645800">
+    <state x="33" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579811045779" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579801630752">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579799645800" />
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579798506469">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579801630752" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579811065712">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579798506469" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579811065712" />
     <state x="220" y="241" key="run.anything.popup" timestamp="1579713262343">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
