@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_125435_create_products_photos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_23_125605_alter_table_stores_add_column_logo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +127,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,14 +168,8 @@
       <workItem from="1579711567568" duration="4204000" />
       <workItem from="1579717217478" duration="495000" />
       <workItem from="1579767748242" duration="11000" />
-      <workItem from="1579767864733" duration="7933000" />
-    </task>
-    <task id="LOCAL-00003" summary="18 -  Adicionando factory seed usuarios">
-      <created>1579624089997</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1579624089997</updated>
+      <workItem from="1579767864733" duration="8600000" />
+      <workItem from="1579784029673" duration="434000" />
     </task>
     <task id="LOCAL-00004" summary="21. O Eloquent">
       <created>1579624754917</created>
@@ -510,14 +507,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579775736698</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado">
+      <created>1579775945484</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1579775945485</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="50. Iniciando CRUD de Produtos" />
     <MESSAGE value="51. Views (Index, Create &amp; Edit)" />
     <MESSAGE value="52. Criando e Atualizando Produtos" />
     <MESSAGE value="52. Criando e Atualizando Produtos&#10;Ajuste simplificando escrita tags hidden (csrf e _method)" />
@@ -542,17 +545,18 @@
     <MESSAGE value="76. Produtos para Loja do Usuário Autenticado" />
     <MESSAGE value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
     <MESSAGE value="81. Atualizando Produtos com Categorias" />
-    <option name="LAST_COMMIT_MESSAGE" value="81. Atualizando Produtos com Categorias" />
+    <MESSAGE value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
+    <option name="LAST_COMMIT_MESSAGE" value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="140" y="102" key="#Inspections/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579767963262" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579775735936">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579775944590">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775735936" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775944590" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -573,14 +577,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="451" y="435" key="NewPhpFileDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579636842971" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579775740319">
+    <state x="33" y="83" key="SettingsEditor" timestamp="1579784046051">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775740319" />
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579767881438">
+    <state x="33" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784046051" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579775947379">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579767881438" />
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579775947379" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579784030804">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784030804" />
     <state x="220" y="241" key="run.anything.popup" timestamp="1579713262343">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
