@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/marketplace_l6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/marketplace_l6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Store.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/stores/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,14 +210,7 @@
       <workItem from="1579767864733" duration="8600000" />
       <workItem from="1579784029673" duration="6786000" />
       <workItem from="1579791307362" duration="4209000" />
-      <workItem from="1579798464941" duration="2445000" />
-    </task>
-    <task id="LOCAL-00013" summary="33. Seeds Lojas &amp; Produtos">
-      <created>1579630477098</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1579630477098</updated>
+      <workItem from="1579798464941" duration="2523000" />
     </task>
     <task id="LOCAL-00014" summary="35. Inserindo Relações">
       <created>1579634158634</created>
@@ -566,14 +548,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579799627364</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="99. Dinamizando Geração de Slug&#10;&#10;&#10;// composer require spatie/laravel-sluggable&#10;//https://github.com/spatie/laravel-sluggable">
+      <created>1579801559570</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1579801559570</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="63. Diretivas Auth Blade" />
     <MESSAGE value="64. Redirecionamento Pós Login" />
     <MESSAGE value="65. Criando Loja para o Usuário Logado&#10;Removendo campo de opção de selecionar usuário no cadastro de loja, onde agora loja cadastrada vapertencer a quem está logado" />
     <MESSAGE value="66. Conclusões Módulo&#10;Adicionanndo nome usuário logado" />
@@ -598,7 +586,8 @@
     <MESSAGE value="93. Validando Imagens do Upload" />
     <MESSAGE value="97. Melhorias em Validação de Imagens" />
     <MESSAGE value="98. Melhorias em Categorias de Produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="98. Melhorias em Categorias de Produtos" />
+    <MESSAGE value="99. Dinamizando Geração de Slug&#10;&#10;&#10;// composer require spatie/laravel-sluggable&#10;//https://github.com/spatie/laravel-sluggable" />
+    <option name="LAST_COMMIT_MESSAGE" value="99. Dinamizando Geração de Slug&#10;&#10;&#10;// composer require spatie/laravel-sluggable&#10;//https://github.com/spatie/laravel-sluggable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -621,10 +610,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579799626358">
+    <state x="182" y="59" key="CommitChangelistDialog2" timestamp="1579801558481">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579799626358" />
+    <state x="182" y="59" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579801558481" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
