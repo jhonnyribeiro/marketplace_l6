@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -217,14 +215,16 @@
       <workItem from="1579798464941" duration="3022000" />
       <workItem from="1579809321005" duration="234000" />
       <workItem from="1579810279382" duration="766000" />
-      <workItem from="1579811065547" duration="7415000" />
-    </task>
-    <task id="LOCAL-00023" summary="46. Melhorias em Rotas Usando Apelidos&#10;Adicoinando apelidos apenas">
-      <created>1579643845843</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1579643845843</updated>
+      <workItem from="1579811065547" duration="8024000" />
+      <workItem from="1579878190974" duration="1776000" />
+      <workItem from="1579895231745" duration="1849000" />
+      <workItem from="1579928093208" duration="2074000" />
+      <workItem from="1579959062541" duration="2088000" />
+      <workItem from="1579964098518" duration="613000" />
+      <workItem from="1579968091772" duration="625000" />
+      <workItem from="1579984582217" duration="25000" />
+      <workItem from="1579987990384" duration="1238000" />
+      <workItem from="1585078196109" duration="3662000" />
     </task>
     <task id="LOCAL-00024" summary="46. Melhorias em Rotas Usando Apelidos&#10;CRUD finalizado">
       <created>1579644422352</created>
@@ -562,14 +562,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579819081395</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="111. Duplicidade de Itens no Carrinho">
+      <created>1579820074418</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579820074418</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Validações produtos - Ajustes Agora testado" />
     <MESSAGE value="74. Iniciando Controle de Lojas por Usuários" />
     <MESSAGE value="75. Criando Middleware para Controle" />
     <MESSAGE value="76. Produtos para Loja do Usuário Autenticado" />
@@ -594,7 +611,8 @@
     <MESSAGE value="105. Iniciando Adição de Produto no Carrinho" />
     <MESSAGE value="106. Concluindo Adição Carrinho" />
     <MESSAGE value="107. Tela do Carrinho de Compras" />
-    <option name="LAST_COMMIT_MESSAGE" value="107. Tela do Carrinho de Compras" />
+    <MESSAGE value="111. Duplicidade de Itens no Carrinho" />
+    <option name="LAST_COMMIT_MESSAGE" value="111. Duplicidade de Itens no Carrinho" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Inspections" timestamp="1579767963262">
@@ -617,10 +635,14 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="266" y="116" key="#phpunit.xml/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579784743928" />
-    <state x="182" y="31" key="CommitChangelistDialog2" timestamp="1579819080569">
+    <state x="182" y="31" key="CommitChangelistDialog2" timestamp="1579820073609">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="31" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579819080569" />
+    <state x="182" y="31" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579820073609" />
+    <state x="377" y="224" key="FileChooserDialogImpl" timestamp="1579984603209">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="377" y="224" key="FileChooserDialogImpl/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579984603209" />
     <state width="1230" height="271" key="GridCell.Tab.0.bottom" timestamp="1579711737280">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -653,21 +675,21 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="737" height="498" key="SwitcherDM/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579817038250" />
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579817805717">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2" timestamp="1579820076565">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579817805717" />
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579811065712">
+    <state x="132" y="198" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579820076565" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579984588212">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579811065712" />
+    <state x="280" y="309" key="com.intellij.ide.util.TipDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579984588212" />
     <state x="220" y="241" key="run.anything.popup" timestamp="1579713262343">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="220" y="241" key="run.anything.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579713262343" />
-    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1579787857246">
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1585084604951">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579787857246" />
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1585084604951" />
   </component>
 </project>
