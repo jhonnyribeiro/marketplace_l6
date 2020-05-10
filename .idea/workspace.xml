@@ -48,10 +48,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/store.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,14 +227,7 @@
       <workItem from="1579984582217" duration="25000" />
       <workItem from="1579987990384" duration="1238000" />
       <workItem from="1585078196109" duration="3662000" />
-      <workItem from="1589134119012" duration="5659000" />
-    </task>
-    <task id="LOCAL-00026" summary="48. Intro &amp; Gerando Controller">
-      <created>1579646886493</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1579646886493</updated>
+      <workItem from="1589134119012" duration="6347000" />
     </task>
     <task id="LOCAL-00027" summary="50. Iniciando CRUD de Produtos">
       <created>1579647659312</created>
@@ -571,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589141855278</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="142. Tela de Produtos por Categoria">
+      <created>1589143315079</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1589143315079</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="76. Produtos para Loja do Usuário Autenticado" />
     <MESSAGE value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
     <MESSAGE value="81. Atualizando Produtos com Categorias" />
     <MESSAGE value="82. Produtos por Loja do Usuário&#10;Filtrando apenas produtos da loja do usuario autenticado" />
@@ -615,17 +615,18 @@
     <MESSAGE value="111. Duplicidade de Itens no Carrinho" />
     <MESSAGE value="140. Compartilhando Categorias com View Share" />
     <MESSAGE value="141. Usando View Composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="141. Usando View Composer" />
+    <MESSAGE value="142. Tela de Produtos por Categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="142. Tela de Produtos por Categoria" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589140121399">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="872" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140121399" />
-    <state x="903" y="93" key="CommitChangelistDialog2" timestamp="1589141854326">
+    <state x="903" y="93" key="CommitChangelistDialog2" timestamp="1589143313360">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="903" y="93" key="CommitChangelistDialog2/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589141854326" />
+    <state x="903" y="93" key="CommitChangelistDialog2/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589143313360" />
     <state width="2511" height="272" key="GridCell.Tab.0.bottom" timestamp="1589134229407">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -658,10 +659,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="872" y="258" key="Vcs.Push.Dialog.v2/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140882630" />
-    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1589141863765">
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1589143608408">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589141863765" />
+    <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589143608408" />
     <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1585084604951" />
   </component>
 </project>
