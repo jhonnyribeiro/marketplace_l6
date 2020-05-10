@@ -48,11 +48,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961b298c-b53a-49a5-aa28-59f35e2e2311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Views/CategoryViewComposer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/CompsoerServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +170,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -224,14 +225,7 @@
       <workItem from="1579984582217" duration="25000" />
       <workItem from="1579987990384" duration="1238000" />
       <workItem from="1585078196109" duration="3662000" />
-      <workItem from="1589134119012" duration="3195000" />
-    </task>
-    <task id="LOCAL-00024" summary="46. Melhorias em Rotas Usando Apelidos&#10;CRUD finalizado">
-      <created>1579644422352</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1579644422352</updated>
+      <workItem from="1589134119012" duration="4045000" />
     </task>
     <task id="LOCAL-00025" summary="47. Mensagens Flash &amp; Concluindo">
       <created>1579645873836</created>
@@ -569,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579820074418</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="140. Compartilhando Categorias com View Share">
+      <created>1589140880630</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1589140880631</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="74. Iniciando Controle de Lojas por Usuários" />
     <MESSAGE value="75. Criando Middleware para Controle" />
     <MESSAGE value="76. Produtos para Loja do Usuário Autenticado" />
     <MESSAGE value="80. Criando Produtos com Categorias&#10;Nesse ponto está salvando produtos com categorias, mas sem editar" />
@@ -613,13 +613,18 @@
     <MESSAGE value="106. Concluindo Adição Carrinho" />
     <MESSAGE value="107. Tela do Carrinho de Compras" />
     <MESSAGE value="111. Duplicidade de Itens no Carrinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="111. Duplicidade de Itens no Carrinho" />
+    <MESSAGE value="140. Compartilhando Categorias com View Share" />
+    <option name="LAST_COMMIT_MESSAGE" value="140. Compartilhando Categorias com View Share" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589140121399">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="872" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140121399" />
+    <state x="903" y="93" key="CommitChangelistDialog2" timestamp="1589140878530">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="903" y="93" key="CommitChangelistDialog2/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140878530" />
     <state width="2511" height="272" key="GridCell.Tab.0.bottom" timestamp="1589134229407">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -640,10 +645,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="259" height="548" key="HiddenNamespacesPopup/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140087674" />
-    <state x="664" y="83" key="SettingsEditor" timestamp="1589140280287">
+    <state x="1056" y="248" key="NewPhpClassDialog" timestamp="1589141202857">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="664" y="83" key="SettingsEditor/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140280287" />
+    <state x="1056" y="248" key="NewPhpClassDialog/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589141202857" />
+    <state x="664" y="83" key="SettingsEditor" timestamp="1589140907337">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="664" y="83" key="SettingsEditor/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140907337" />
+    <state x="872" y="258" key="Vcs.Push.Dialog.v2" timestamp="1589140882630">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="872" y="258" key="Vcs.Push.Dialog.v2/-1366.305.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1589140882630" />
     <state x="219" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1589138989103">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
